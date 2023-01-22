@@ -1,0 +1,12 @@
+.items {
+  background: orange;
+  display: flex;
+  overflow: auto;
+  .item {
+    white-space: nowrap;
+    min-width: 200px;
+    display: grid;
+    place-content: center;
+    border: 1px solid black;
+  }
+}
